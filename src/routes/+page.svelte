@@ -63,6 +63,7 @@
 		</div>
 
 		<video autoplay muted loop playsinline preload="none" poster="/media/photos/mvr2025-pits-512.webp">
+			<source src="/media/2025-600.mp4" type="video/mp4" media="(max-width: 600px)" />
 			<source src="/media/2025.mp4" type="video/mp4" />
 			Your browser does not support video playback.
 		</video>
