@@ -1,0 +1,6 @@
+{
+	"files.associations": {
+		"wrangler.json": "jsonc"
+	},
+	"svelte.plugin.svelte.runesLegacyModeCodeLens.enable": false
+}

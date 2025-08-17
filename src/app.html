@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Team 340 - G.R.R.</title>
+		<meta
+			name="description"
+			content="Team 340, G.R.R. (Greater Rochester Robotics) is a high school robotics team that competes annually in the FIRST Robotics Competition. Every year, our students are challenged to design, build, and program a competitive industrial-sized robot capable of playing a field game that is released in January."
+		/>
+		<meta
+			name="keywords"
+			content="FRC, 340, GRR, Greater Rochester Robotics, FIRST, Robotics, Churchville, Rochester, New York"
+		/>
+		<meta name="theme-color" content="#e87722" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+
+		<link rel="preload" href="/fonts/InterVariable.woff2" as="font" type="font/woff2" />
+		<link rel="preload" href="/fonts/InterVariable-Italic.woff2" as="font" type="font/woff2" />
+
+		<style>
+			@font-face {
+				font-family: Inter;
+				font-style: normal;
+				font-weight: 100 900;
+				font-display: swap;
+				src: url('/fonts/InterVariable.woff2') format('woff2');
+			}
+			@font-face {
+				font-family: Inter;
+				font-style: italic;
+				font-weight: 100 900;
+				font-display: swap;
+				src: url('/fonts/InterVariable-Italic.woff2') format('woff2');
+			}
+
+			:root {
+				--default-text: rgb(212, 212, 218);
+				--accent: rgb(232, 119, 34);
+
+				color: var(--default-text);
+				background-color: rgb(28, 28, 30);
+
+				font-family: Inter, sans-serif;
+				font-feature-settings:
+					'liga' 1,
+					'calt' 1;
+				text-rendering: optimizeLegibility;
+				-webkit-font-smoothing: antialiased;
+				-webkit-text-size-adjust: 100%;
+				-moz-osx-font-smoothing: grayscale;
+			}
+		</style>
+
+		%sveltekit.head%
+	</head>
+
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
