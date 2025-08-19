@@ -11,7 +11,7 @@
 			{#if sponsor.image}
 				<img src="/sponsors/{sponsor.image}" alt={sponsor.name} />
 			{:else}
-				<div class="sponsor-text">
+				<div class="text-only">
 					<p>{sponsor.name}</p>
 				</div>
 			{/if}
@@ -43,7 +43,7 @@
 		}
 	}
 
-	.sponsor-text {
+	.text-only {
 		display: flex;
 		justify-content: center;
 		align-items: center;
