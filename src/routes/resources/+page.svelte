@@ -53,10 +53,10 @@
 
 	<h2>Branding</h2>
 
-	<div id="branding">
+	<div id="branding-images">
 		<div>
 			<img src="/files/branding/340_simplified.svg" alt="Team 340 Logo, Simplified" />
-			<div class="branding-footer">
+			<div class="branding-image-footer">
 				<b>Simplified</b>
 				<Download label="PNG" url="/files/branding/340_simplified.png" />
 				<Download label="SVG" url="/files/branding/340_simplified.svg" />
@@ -65,48 +65,109 @@
 
 		<div>
 			<img src="/files/branding/340.svg" alt="Team 340 Logo, Regular" />
-			<div class="branding-footer">
+			<div class="branding-image-footer">
 				<b>Regular</b>
 				<Download label="PNG" url="/files/branding/340.png" />
 				<Download label="SVG" url="/files/branding/340.svg" />
 			</div>
 		</div>
 	</div>
+
+	<span style="height: 3rem;"></span>
+
+	<div id="branding-colors">
+		<div>
+			<div class="branding-color-description">
+				<h3>Pantone 158 C</h3>
+				<p>Hex: #e87722</p>
+				<p>RGB: 232, 119, 34</p>
+				<p>HSL: 26°, 81%, 52%</p>
+				<p>HSV: 26°, 85%, 91%</p>
+			</div>
+			<div class="branding-color-display" style="background-color: #e87722;"></div>
+		</div>
+
+		<div>
+			<div class="branding-color-description">
+				<h3>White</h3>
+				<p>Hex: #ffffff</p>
+				<p>RGB: 255, 255, 255</p>
+				<p>HSL: 0°, 0%, 100%</p>
+				<p>HSV: 0°, 0%, 100%</p>
+			</div>
+			<div class="branding-color-display" style="background-color: #ffffff;"></div>
+		</div>
+	</div>
 </main>
 
 <style>
-	#branding {
+	#branding-images,
+	#branding-colors {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		align-items: center;
 		gap: 6rem;
 
 		@media (width < 60rem) {
 			flex-direction: column;
 		}
+	}
 
+	#branding-images {
 		> div {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			gap: 2rem;
 			width: 20rem;
-		}
 
-		img {
-			height: 10rem;
-			width: 10rem;
-			border: none;
-			box-shadow: none;
-		}
+			img {
+				height: 10rem;
+				width: 10rem;
+				border: none;
+				box-shadow: none;
+			}
 
-		.branding-footer {
-			width: 16rem;
+			.branding-image-footer {
+				width: 16rem;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				gap: 1rem;
+			}
+		}
+	}
+
+	#branding-colors {
+		> div {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-between;
-			gap: 1rem;
+			align-items: center;
+			gap: 2rem;
+
+			.branding-color-display {
+				width: 7rem;
+				height: 7rem;
+				border-radius: 1rem;
+			}
+
+			.branding-color-description {
+				width: 9rem;
+				display: flex;
+				flex-direction: column;
+				gap: 0.4rem;
+
+				h3 {
+					font-size: 1.2rem;
+					margin-bottom: 0.4rem;
+				}
+
+				p {
+					font-size: 0.8rem;
+					font-weight: 300;
+				}
+			}
 		}
 	}
 </style>
