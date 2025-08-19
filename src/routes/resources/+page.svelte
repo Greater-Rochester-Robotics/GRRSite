@@ -78,7 +78,7 @@
 	<div id="branding-colors">
 		<div>
 			<div class="branding-color-description">
-				<h3>Pantone 158 C</h3>
+				<h3>Pantone® 158 C</h3>
 				<p>Hex: #e87722</p>
 				<p>RGB: 232, 119, 34</p>
 				<p>HSL: 26°, 81%, 52%</p>
@@ -159,7 +159,6 @@
 				gap: 0.4rem;
 
 				h3 {
-					font-size: 1.2rem;
 					margin-bottom: 0.4rem;
 				}
 
