@@ -73,13 +73,13 @@
 		</div>
 	</div>
 
-	<span style="height: 3rem;"></span>
+	<span style="height: 1.5rem;"></span>
 
 	<div id="branding-colors">
 		<div>
 			<div class="branding-color-description">
 				<h3>Pantone® 158 C</h3>
-				<p>Hex: #e87722</p>
+				<p>Hex: #E87722</p>
 				<p>RGB: 232, 119, 34</p>
 				<p>HSL: 26°, 81%, 52%</p>
 				<p>HSV: 26°, 85%, 91%</p>
@@ -90,7 +90,7 @@
 		<div>
 			<div class="branding-color-description">
 				<h3>White</h3>
-				<p>Hex: #ffffff</p>
+				<p>Hex: #FFFFFF</p>
 				<p>RGB: 255, 255, 255</p>
 				<p>HSL: 0°, 0%, 100%</p>
 				<p>HSV: 0°, 0%, 100%</p>
@@ -107,7 +107,7 @@
 		flex-direction: row;
 		justify-content: space-evenly;
 		align-items: center;
-		gap: 6rem;
+		gap: 4rem;
 
 		@media (width < 60rem) {
 			flex-direction: column;
