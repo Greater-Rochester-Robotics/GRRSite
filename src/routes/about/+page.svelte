@@ -71,5 +71,14 @@
 		by inviting students to be part of our team if their home district does not facilitate a FIRST robotics team.
 	</p>
 
+	<h3>Why 340?</h3>
+	<p>
+		FRC team numbers used to change annually based on alphabetical order, but in 1998, FIRST froze the numbers.
+		Initially, teams were identified by names of their sponsors, then assigned numbers each year. After 1998, new teams
+		were assigned the next available number, with exceptions for teams that split or return after a break. Teams that
+		joined in or before 1998 were assigned numbers 1-208. Numbers 209-335 were assigned for the 1999 build season. We
+		registered early in the fall of 1999 and were assigned 340.
+	</p>
+
 	{@render img512('curie2025-setup', 'Team 340 preparing for a match at the 2025 championship', 1920)}
 </main>

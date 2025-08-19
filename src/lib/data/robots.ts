@@ -610,6 +610,7 @@ export const robots: Robot[] = [
 	{
 		year: 2003,
 		name: `TiGrr 3`,
+		headline: `Qualified for World Championship`,
 		teamPhoto: `Team 340 with 25 Raider Robotix and 102 The Gearheads @ J&J Mid-Atlantic Regional`,
 		events: [
 			{
@@ -638,10 +639,16 @@ export const robots: Robot[] = [
 	{
 		year: 2002,
 		name: `TiGrr 2`,
+		headline: ATTENDED_CHAMPS,
 		events: [
 			{
 				name: `New York City Regional`,
 				awards: [`Driving Tomorrows Technology Award`],
+				banners: []
+			},
+			{
+				name: `FIRST Championship`,
+				awards: [],
 				banners: []
 			}
 		],

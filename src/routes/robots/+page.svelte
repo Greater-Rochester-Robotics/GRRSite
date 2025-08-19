@@ -36,7 +36,7 @@
 							<b>{awards} Award{awards > 1 ? `s` : ``}</b>
 						{/if}
 						{#if banners}
-							<i style="font-size: 0.7rem;">{banners > 1 ? `${banners} Blue Banners` : `+ Blue Banner`}</i>
+							<i style="font-size: 0.7rem;">{banners > 1 ? `${banners} Banners` : `+ Banner`}</i>
 						{/if}
 					</div>
 
