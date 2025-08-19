@@ -1,3 +1,5 @@
 # GRRSite
 
-This repository hosts the contents for [team340.org](https://team340.org).
+Source repository for FRC Team 340's website, [team340.org](https://team340.org).
+
+![Screenshot](screenshot.png)
