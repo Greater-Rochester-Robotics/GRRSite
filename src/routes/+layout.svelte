@@ -7,7 +7,7 @@
 		{ label: `About`, url: `/about` },
 		{ label: `Our Robots`, url: `/robots` },
 		{ label: `Resources`, url: `/resources` },
-		// { label: `Sponsors`, url: `/sponsors` },
+		{ label: `Sponsors`, url: `/sponsors` },
 		{ label: `Contact`, url: `/contact` }
 	];
 

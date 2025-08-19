@@ -1,6 +1,8 @@
 <script>
 	import Link from '$lib/Link.svelte';
+	import SponsorList from '$lib/SponsorList.svelte';
 	import { nextEvent } from '$lib/data/nextEvent';
+	import { sponsors } from '$lib/data/sponsors';
 	import { onMount } from 'svelte';
 
 	let days = $state(0);
@@ -36,9 +38,8 @@
 		<h1>Team 340 <span style="color: var(--accent);">G.R.R.</span></h1>
 		<p>Greater Rochester Robotics is a high school robotics team based in Churchville, New York.</p>
 		<div id="quick-links">
-			<!-- TODO -->
 			<a href="https://docs.google.com/forms/d/18lWIUZD4r8hx69ei_DRwcXel9XCzbMMCsA2wotxImcI/viewform">Join the team</a>
-			<!-- <a href="/sponsors">Support the team</a> -->
+			<a href="/sponsors">Support the team</a>
 		</div>
 	</div>
 
@@ -94,17 +95,21 @@
 		{/if}
 	</div>
 
-	<!-- <div id="sponsors">
+	<div id="sponsors">
 		<div id="sponsors-text">
 			<h1>Sponsors</h1>
 			<p>
-				Without the help of our sponsors, Team 340 wouldn't be able to build and compete as we do each year. With the
-				resources they provide us, we are able to turn our dreams into a reality.
+				We are grateful to our sponsors for providing the resources necessary to build competitive robots and positively
+				impact our students every year. The organizations listed below offer generous financial support that makes our
+				program possible.
 			</p>
+			<Link label="All Sponsors" url="/sponsors" />
 		</div>
 
-		<p><i>Placeholder - TODO get top sponsor logos</i></p>
-	</div> -->
+		<span id="sponsors-spacer"></span>
+
+		<SponsorList homepageFilter />
+	</div>
 </main>
 
 <style>
@@ -258,7 +263,7 @@
 		}
 	}
 
-	/* #sponsors {
+	#sponsors {
 		margin: 0 8%;
 	}
 
@@ -267,6 +272,13 @@
 		flex-direction: column;
 		justify-content: center;
 		gap: 1.2rem;
-		max-width: 40rem;
-	} */
+	}
+
+	#sponsors-spacer {
+		height: 0.4rem;
+
+		@media (width < 36rem) {
+			height: 1rem;
+		}
+	}
 </style>
