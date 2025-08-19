@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Download from '$lib/Download.svelte';
 	import Link from '$lib/Link.svelte';
 </script>

@@ -4,7 +4,7 @@
 
 <main>
 	<p>Oh Noes!!</p>
-	<h2>{page.status} &ndash; {page.error?.message ?? `An error occurred loading this page`}</h2>
+	<h2>{page.status} &ndash; {page.error?.message ?? `An error occurred`}</h2>
 	<img src="/badnewsbears.webp" alt="Bad news bears" />
 </main>
 

@@ -5,7 +5,7 @@
 	import { error } from '@sveltejs/kit';
 
 	const robot = robots.find((robot) => robot.year === Number(page.url.pathname.split(`/`).at(-1)));
-	if (!robot) error(404);
+	if (!robot) error(404, `Robot Not Found`);
 </script>
 
 <svelte:head>
@@ -46,7 +46,9 @@
 							{/if}
 						</div>
 					{/each}
-					<Link label="The Blue Alliance" url="https://www.thebluealliance.com/team/340/{robot.year}" />
+					<span style="margin-top: 0.6rem;">
+						<Link label="The Blue Alliance" url="https://www.thebluealliance.com/team/340/{robot.year}" />
+					</span>
 				</div>
 			</div>
 

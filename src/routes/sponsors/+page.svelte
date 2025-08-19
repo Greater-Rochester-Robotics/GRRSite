@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { YEAR } from '$lib/data/sponsors';
 	import Link from '$lib/Link.svelte';
 	import SponsorList from '$lib/SponsorList.svelte';

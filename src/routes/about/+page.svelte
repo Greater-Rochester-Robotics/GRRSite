@@ -82,3 +82,10 @@
 
 	{@render img512('curie2025-setup', 'Team 340 preparing for a match at the 2025 championship', 1920)}
 </main>
+
+<style>
+	.image-container {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+</style>

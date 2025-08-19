@@ -1,8 +1,7 @@
-<script>
+<script lang="ts">
 	import Link from '$lib/Link.svelte';
 	import SponsorList from '$lib/SponsorList.svelte';
 	import { nextEvent } from '$lib/data/nextEvent';
-	import { sponsors } from '$lib/data/sponsors';
 	import { onMount } from 'svelte';
 
 	let days = $state(0);
