@@ -1,7 +1,7 @@
 {
 	"name": "grrsite",
 	"private": true,
-	"version": "2025.8.18",
+	"version": "2025.8.31",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -16,16 +16,16 @@
 		"cf-typegen": "wrangler types ./src/worker-configuration.d.ts"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^6.0.0",
-		"@sveltejs/adapter-cloudflare": "^7.2.1",
-		"@sveltejs/kit": "^2.22.0",
-		"@sveltejs/vite-plugin-svelte": "^6.0.0",
-		"prettier": "^3.4.2",
-		"prettier-plugin-svelte": "^3.3.3",
-		"svelte": "^5.0.0",
-		"svelte-check": "^4.0.0",
-		"typescript": "^5.0.0",
-		"vite": "^7.0.4",
-		"wrangler": "^4.30.0"
+		"@sveltejs/adapter-auto": "^6.1.0",
+		"@sveltejs/adapter-cloudflare": "^7.2.3",
+		"@sveltejs/kit": "^2.37.0",
+		"@sveltejs/vite-plugin-svelte": "^6.1.3",
+		"prettier": "^3.6.2",
+		"prettier-plugin-svelte": "^3.4.0",
+		"svelte": "^5.38.6",
+		"svelte-check": "^4.3.1",
+		"typescript": "^5.9.2",
+		"vite": "^7.1.3",
+		"wrangler": "^4.33.1"
 	}
 }
