@@ -83,9 +83,16 @@
 		{/if}
 	</div>
 
+	{#if robot.actionEmbed}
+		<div id="in-action">
+			<h2>{robot.name} in Action</h2>
+			<iframe title="{robot.name} in Action" id="ytplayer" src="{robot.actionEmbed}?color=white&rel=0"></iframe>
+		</div>
+	{/if}
+
 	{#if robot.teamPhoto}
 		<div id="team-photo">
-			<hr style="width: 95%; opacity: 0.2; margin: 1rem 0;" />
+			<hr style="width: 95%; opacity: 0.2; margin: 0.8rem 0;" />
 			<img src="/media/team/{robot.year}.webp" alt="{robot.year} Team Photo" />
 			<i>{robot.teamPhoto}</i>
 		</div>
@@ -198,7 +205,8 @@
 		}
 	}
 
-	#the-challenge {
+	#the-challenge,
+	#in-action {
 		iframe {
 			width: 100%;
 			aspect-ratio: 16 / 9;
@@ -207,6 +215,10 @@
 			border: 1px solid rgba(255, 255, 255, 0.1);
 			box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.25);
 		}
+	}
+
+	#in-action {
+		margin-top: 1.4rem;
 	}
 
 	#team-photo {

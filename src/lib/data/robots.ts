@@ -2,6 +2,7 @@ export interface Robot {
 	year: number;
 	name: string;
 	headline?: string;
+	actionEmbed?: string;
 	teamPhoto?: string;
 	events: Array<{
 		name: string;
@@ -30,6 +31,7 @@ export const robots: Robot[] = [
 		year: 2025,
 		name: `Goose`,
 		headline: ATTENDED_CHAMPS,
+		actionEmbed: `https://www.youtube.com/embed/Hec9yHfV8TA`,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
 			{
@@ -59,6 +61,7 @@ export const robots: Robot[] = [
 	{
 		year: 2024,
 		name: `Mushu`,
+		actionEmbed: `https://www.youtube.com/embed/rD50ke0f65k`,
 		teamPhoto: `Team 340 @ Greater Pittsburgh Regional`,
 		events: [
 			{
@@ -106,6 +109,7 @@ export const robots: Robot[] = [
 		year: 2022,
 		name: `Covert`,
 		headline: ATTENDED_CHAMPS,
+		actionEmbed: `https://www.youtube.com/embed/9cCQ26Fcpr4`,
 		teamPhoto: `Team 340 @ Buckeye Regional`,
 		events: [
 			{
@@ -136,6 +140,7 @@ export const robots: Robot[] = [
 		year: 2021,
 		name: `Ann-G 2.0`,
 		headline: `At Home Challenge`,
+		actionEmbed: `https://www.youtube.com/embed/Gpwdmo3icBc`,
 		events: [
 			{
 				name: `INFINITE RECHARGE At Home Challenge`,
