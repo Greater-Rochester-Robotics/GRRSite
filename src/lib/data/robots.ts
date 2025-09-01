@@ -160,6 +160,7 @@ export const robots: Robot[] = [
 		year: 2020,
 		name: `Ann-G`,
 		headline: `Qualified for World Championship`,
+		actionEmbed: `https://www.youtube.com/embed/EFbScOLbqgo`,
 		events: [
 			{
 				name: `Miami Valley Regional`,
@@ -178,6 +179,7 @@ export const robots: Robot[] = [
 		year: 2019,
 		name: `Mantis`,
 		headline: ATTENDED_CHAMPS,
+		actionEmbed: `https://www.youtube.com/embed/nkH4cl75acY`,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
 			{
@@ -208,6 +210,7 @@ export const robots: Robot[] = [
 		year: 2018,
 		name: `Shak`,
 		headline: ATTENDED_CHAMPS,
+		actionEmbed: `https://www.youtube.com/embed/sJ9r-VUeydM`,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
 			{
@@ -238,6 +241,7 @@ export const robots: Robot[] = [
 		year: 2017,
 		name: `Bruce`,
 		headline: ATTENDED_CHAMPS,
+		actionEmbed: `https://www.youtube.com/embed/rPnBnM4EyZY`,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
 			{
