@@ -85,6 +85,7 @@ export const robots: Robot[] = [
 	{
 		year: 2023,
 		name: `Lily`,
+		actionEmbed: `https://www.youtube.com/embed/XQenGvqEkkM`,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
 			{

@@ -74,6 +74,13 @@
 		</div>
 	</div>
 
+	{#if robot.actionEmbed}
+		<div id="in-action">
+			<iframe title="{robot.name} in Action" id="ytplayer" src="{robot.actionEmbed}?color=white&rel=0"></iframe>
+			<i>{robot.name} in Action</i>
+		</div>
+	{/if}
+
 	<div id="the-challenge">
 		<h2>The Challenge</h2>
 		<p>{robot.gameInfo.description}</p>
@@ -83,16 +90,9 @@
 		{/if}
 	</div>
 
-	{#if robot.actionEmbed}
-		<div id="in-action">
-			<h2>{robot.name} in Action</h2>
-			<iframe title="{robot.name} in Action" id="ytplayer" src="{robot.actionEmbed}?color=white&rel=0"></iframe>
-		</div>
-	{/if}
-
 	{#if robot.teamPhoto}
 		<div id="team-photo">
-			<hr style="width: 95%; opacity: 0.2; margin: 0.8rem 0;" />
+			<hr style="width: 90%; opacity: 0.2; margin-top: 0.6rem; margin-bottom: 1.2rem;" />
 			<img src="/media/team/{robot.year}.webp" alt="{robot.year} Team Photo" />
 			<i>{robot.teamPhoto}</i>
 		</div>
@@ -113,6 +113,7 @@
 		flex-direction: row;
 		justify-content: space-between;
 		gap: 1.4rem;
+		margin-bottom: 1rem;
 
 		@media (width < 45rem) {
 			flex-direction: column;
@@ -205,8 +206,8 @@
 		}
 	}
 
-	#the-challenge,
-	#in-action {
+	#in-action,
+	#the-challenge {
 		iframe {
 			width: 100%;
 			aspect-ratio: 16 / 9;
@@ -217,23 +218,20 @@
 		}
 	}
 
-	#in-action {
-		margin-top: 1.4rem;
-	}
-
+	#in-action,
 	#team-photo {
 		align-items: center;
 		text-align: center;
+		gap: 1rem;
+
+		i {
+			font-weight: 300;
+			opacity: 0.6;
+		}
 
 		img {
 			width: 100%;
 			height: auto;
-		}
-
-		i {
-			font-weight: 300;
-			font-size: 0.85rem;
-			opacity: 0.6;
 		}
 	}
 </style>
