@@ -105,9 +105,9 @@
 			<Link label="All Sponsors" url="/sponsors" />
 		</div>
 
-		<span id="sponsors-spacer"></span>
-
-		<SponsorList homepageFilter />
+		<div id="sponsors-list">
+			<SponsorList homepage />
+		</div>
 	</div>
 </main>
 
@@ -264,6 +264,7 @@
 
 	#sponsors {
 		margin: 0 8%;
+		align-items: center;
 	}
 
 	#sponsors-text {
@@ -273,11 +274,13 @@
 		gap: 1.2rem;
 	}
 
-	#sponsors-spacer {
-		height: 0.4rem;
+	#sponsors-list {
+		width: 100%;
+		max-width: 54rem;
+		margin-top: 2.8rem;
 
-		@media (width < 36rem) {
-			height: 1rem;
+		@media (width < 48rem) {
+			margin-top: 2rem;
 		}
 	}
 </style>
