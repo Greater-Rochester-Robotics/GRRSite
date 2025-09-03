@@ -29,6 +29,12 @@
 </script>
 
 <svelte:head>
+	<title>Team 340 - G.R.R.</title>
+	<meta
+		name="description"
+		content="Team 340, G.R.R. (Greater Rochester Robotics) is a high school robotics team based in Churchville, New York. We compete in the FIRST Robotics Competition, where our students are challenged to design, build, and program a competitive industrial-sized robot in only a few short weeks."
+	/>
+
 	<link rel="preload" href="/media/photos/flr2025-winners.webp" as="image" type="image/webp" fetchpriority="high" />
 </svelte:head>
 

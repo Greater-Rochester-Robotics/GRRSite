@@ -1,16 +1,29 @@
 <script lang="ts">
 	import Link from '$lib/Link.svelte';
 	import { ATTENDED_CHAMPS, robots } from '$lib/data/robots';
+
+	const seasonCount = robots.length;
+	const awardCount = robots.reduce((p, c) => p + c.events.reduce((p, c) => p + c.awards.length, 0), 0);
+	const bannerCount = robots.reduce((p, c) => p + c.events.reduce((p, c) => p + c.banners.length, 0), 0);
+	const champsCount = robots.filter((r) => r.headline === ATTENDED_CHAMPS).length;
 </script>
+
+<svelte:head>
+	<title>Team 340 - Our Robots</title>
+	<meta
+		name="description"
+		content="Learn about Team 340's robots, which over {seasonCount} seasons have received {awardCount} awards and {bannerCount} blue banners."
+	/>
+</svelte:head>
 
 <main style="gap: 0.4rem;">
 	<h1 style="text-align: center;">Our Robots</h1>
 
 	<div id="career">
-		<p>{robots.length} Seasons</p>
-		<p>{robots.reduce((p, c) => p + c.events.reduce((p, c) => p + c.awards.length, 0), 0)} Awards</p>
-		<p>{robots.reduce((p, c) => p + c.events.reduce((p, c) => p + c.banners.length, 0), 0)} Blue Banners</p>
-		<p>{robots.filter((r) => r.headline === ATTENDED_CHAMPS).length} Championship Appearances</p>
+		<p>{seasonCount} Seasons</p>
+		<p>{awardCount} Awards</p>
+		<p>{bannerCount} Blue Banners</p>
+		<p>{champsCount} Championship Appearances</p>
 	</div>
 
 	<div id="robots">

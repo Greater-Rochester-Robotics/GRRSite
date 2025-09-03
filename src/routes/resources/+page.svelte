@@ -3,6 +3,14 @@
 	import Link from '$lib/Link.svelte';
 </script>
 
+<svelte:head>
+	<title>Team 340 - Resources</title>
+	<meta
+		name="description"
+		content="Resources from Team 340 for students, parents, sponsors, and the broader FIRST community."
+	/>
+</svelte:head>
+
 <main class="article">
 	<h1>Resources</h1>
 

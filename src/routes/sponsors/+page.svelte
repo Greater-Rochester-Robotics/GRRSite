@@ -4,6 +4,14 @@
 	import SponsorList from '$lib/SponsorList.svelte';
 </script>
 
+<svelte:head>
+	<title>Team 340 - Sponsors</title>
+	<meta
+		name="description"
+		content="Learn about Team 340's sponsors, who provide us the resources necessary to build competitive robots and positively impact our students every year."
+	/>
+</svelte:head>
+
 <main>
 	<h1>{YEAR} Sponsors</h1>
 	<div>

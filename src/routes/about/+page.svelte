@@ -2,6 +2,14 @@
 	import Link from '$lib/Link.svelte';
 </script>
 
+<svelte:head>
+	<title>Team 340 - About</title>
+	<meta
+		name="description"
+		content="Learn more about Greater Rochester Robotics, who has been working to promote science, technology, and engineering since 1999."
+	/>
+</svelte:head>
+
 {#snippet img512(name: string, alt: string, fullRes: number)}
 	<div class="image-container">
 		<img

@@ -6,9 +6,20 @@
 
 	const robot = robots.find((robot) => robot.year === Number(page.url.pathname.split(`/`).at(-1)));
 	if (!robot) error(404, `Robot Not Found`);
+
+	const awardCount = robot.events.reduce((p, c) => p + c.awards.length, 0);
 </script>
 
 <svelte:head>
+	<title>Team 340 - {robot.name} ({robot.year})</title>
+	<meta
+		name="description"
+		content="Team 340's {robot.year} season competition robot, {robot.name}, competed at {robot.events
+			.length} event{robot.events.length !== 1 ? `s` : ``} and won {awardCount} award{awardCount !== 1
+			? `s`
+			: ``}. Learn about our achievements, the {robot.year} {robot.gameInfo.name} challenge, and more."
+	/>
+
 	<link rel="preload" href="/fonts/Roboto-Bold.woff2" as="font" type="font/woff2" />
 
 	<style>

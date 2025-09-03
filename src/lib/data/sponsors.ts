@@ -21,7 +21,7 @@ export const sponsors: Sponsor[] = [
 	},
 	{
 		name: `Bausch Foundation`,
-		url: `https://www.bauschfoundation.org`,
+		url: `https://www.bausch.com`,
 		image: `bausch-foundation.webp`,
 		homepage: true,
 		description: [

@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Team 340 - Contact</title>
+	<meta name="description" content="Information about getting in contact with Team 340 leadership." />
+</svelte:head>
+
 <main class="article">
 	<h1 style="text-align: center;">Contact Us</h1>
 
