@@ -57,7 +57,7 @@
 					{#each event.banners as banner}
 						<div class="banner">
 							<div>
-								<img src="/media/frc.svg" alt="FIRST® Robotics Competition Logo" />
+								<img src="/frc.svg" alt="FIRST® Robotics Competition Logo" />
 							</div>
 							<span></span>
 							<p>{banner.toUpperCase()}</p>
