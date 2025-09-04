@@ -7,7 +7,7 @@
 	<title>Team 340 - Resources</title>
 	<meta
 		name="description"
-		content="Resources from Team 340 for students, parents, sponsors, and the broader FIRST community."
+		content="Resources from Team 340 for students, parents, sponsors, and the broader FIRST community. Includes branding and logos, technical information, and helpful links."
 	/>
 </svelte:head>
 
