@@ -14,7 +14,7 @@
 	<title>Team 340 - {robot.name} ({robot.year})</title>
 	<meta
 		name="description"
-		content="Team 340's {robot.year} season competition robot, {robot.name}, competed at {robot.events
+		content="Team 340's {robot.year} competition season robot, {robot.name}, competed at {robot.events
 			.length} event{robot.events.length !== 1 ? `s` : ``} and won {awardCount} award{awardCount !== 1
 			? `s`
 			: ``}. Learn about our achievements, the {robot.year} {robot.gameInfo.name} challenge, and more."
