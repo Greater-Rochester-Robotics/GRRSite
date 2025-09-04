@@ -89,8 +89,7 @@
 				<h3>Pantone® 158 C</h3>
 				<p>Hex: #E87722</p>
 				<p>RGB: 232, 119, 34</p>
-				<p>HSL: 26°, 81%, 52%</p>
-				<p>HSV: 26°, 85%, 91%</p>
+				<p>CMYK: 0, 62, 97, 0</p>
 			</div>
 			<div class="branding-color-display" style="background-color: #e87722;"></div>
 		</div>
@@ -100,8 +99,7 @@
 				<h3>White</h3>
 				<p>Hex: #FFFFFF</p>
 				<p>RGB: 255, 255, 255</p>
-				<p>HSL: 0°, 0%, 100%</p>
-				<p>HSV: 0°, 0%, 100%</p>
+				<p>CMYK: 0, 0, 0, 0</p>
 			</div>
 			<div class="branding-color-display" style="background-color: #ffffff;"></div>
 		</div>
@@ -113,6 +111,7 @@
 	#branding-colors {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: space-evenly;
 		align-items: center;
 		gap: 4rem;
