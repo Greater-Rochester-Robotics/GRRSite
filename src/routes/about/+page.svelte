@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Link from '$lib/Link.svelte';
+	import SectionHead from '$lib/SectionHead.svelte';
 </script>
 
 <svelte:head>
@@ -37,7 +38,7 @@
 		of which are parents of current and former team members, in addition to many team alumni who return to mentor.
 	</p>
 
-	<h2>What is FIRST?</h2>
+	<SectionHead text="What is FIRST?" />
 	<p style="text-align: center; opacity: 0.8;"><i>"For Inspiration and Recognition of Science and Technology"</i></p>
 	<p>
 		FIRST was founded in 1989 to inspire young people's interests and participation in science and technology. Based in
@@ -55,7 +56,7 @@
 
 	{@render img512('mvr2025-celebration', 'Team 340 after winning the Miami Valley 2025 Regional', 1920)}
 
-	<h2>What do we build?</h2>
+	<SectionHead text="What do we build?" />
 	<p>
 		Every year, FIRST releases a new challenge for students to build a industrial-sized robots weighing upwards of 150
 		pounds to play a field game against other teams from around the world. Each season's robot is built under an intense
@@ -66,10 +67,10 @@
 
 	{@render img512('curie2025-l4score', 'Team 340 competing at the 2025 championship', 1920)}
 
-	<h2>Team History</h2>
+	<SectionHead text="Team History" />
 	<p>
-		Greater Rochester Robotics was founded by Chris Mikus and John Simmons, two engineers working for Nortel Networks,
-		along with Jason Rees, a technology teacher for Churchville-Chili High School.
+		Greater Rochester Robotics was founded in 1999 by Chris Mikus and John Simmons, two engineers working for Nortel
+		Networks, along with Jason Rees, a technology teacher for Churchville-Chili High School.
 	</p>
 	<p>
 		Our team was originally open to any student at Churchville-Chili High School along with children of Nortel Networks
@@ -79,7 +80,7 @@
 		by inviting students to be part of our team if their home district does not facilitate a FIRST robotics team.
 	</p>
 
-	<h3>Why 340?</h3>
+	<h3>Why the number "340"?</h3>
 	<p>
 		FRC team numbers used to change annually based on alphabetical order, but in 1998, FIRST froze the numbers.
 		Initially, teams were identified by names of their sponsors, then assigned numbers each year. After 1998, new teams

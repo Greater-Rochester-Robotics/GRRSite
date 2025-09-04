@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Download from '$lib/Download.svelte';
 	import Link from '$lib/Link.svelte';
+	import SectionHead from '$lib/SectionHead.svelte';
 </script>
 
 <svelte:head>
@@ -16,7 +17,7 @@
 
 	<span></span>
 
-	<h2>Event Information</h2>
+	<SectionHead text="Event Information" />
 	<p>
 		Information and results from official FIRST events are available on their website. Alternatively, this information
 		can also be accessed on The Blue Alliance (TBA), a third-party website and app that hosts a more user-friendly
@@ -33,7 +34,7 @@
 
 	<span></span>
 
-	<h2>Build Threads</h2>
+	<SectionHead text="Build Threads" />
 	<p>
 		In recent seasons, Team 340 has been sharing our build process and strategy in-season on Chief Delphi, an online
 		forum dedicated to discussion about the FIRST Robotics Competition. Below are links to each season's corresponding
@@ -50,7 +51,7 @@
 
 	<span></span>
 
-	<h2>Code Releases</h2>
+	<SectionHead text="Code Releases" />
 	<p>
 		With the goal of fostering collaboration, Team 340 releases our robot code publicly in our GitHub organization.
 		There we also share other programming-related resources, such as robot logs and our template repository.
@@ -59,8 +60,7 @@
 
 	<span></span>
 
-	<h2>Branding</h2>
-
+	<SectionHead text="Branding" />
 	<div id="branding-images">
 		<div>
 			<img src="/files/branding/340_simplified.svg" alt="Team 340 Logo, Simplified" />
