@@ -87,7 +87,7 @@
 
 	{#if robot.actionEmbed}
 		<div id="in-action">
-			<iframe title="{robot.name} in Action" id="ytplayer" src="{robot.actionEmbed}?color=white&rel=0"></iframe>
+			<iframe title="{robot.name} in Action" src="{robot.actionEmbed}?color=white&rel=0" allowfullscreen></iframe>
 			<i>{robot.name} in Action</i>
 		</div>
 	{/if}
@@ -97,7 +97,7 @@
 		<p>{robot.gameInfo.description}</p>
 		<Link label="Read More" url={robot.gameInfo.descriptionUrl} />
 		{#if robot.gameInfo.animationEmbed}
-			<iframe title="Game Animation" id="ytplayer" src="{robot.gameInfo.animationEmbed}?color=white&rel=0"></iframe>
+			<iframe title="Game Animation" src="{robot.gameInfo.animationEmbed}?color=white&rel=0" allowfullscreen></iframe>
 		{/if}
 	</div>
 
