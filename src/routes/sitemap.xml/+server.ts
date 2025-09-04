@@ -1,7 +1,7 @@
 const ROOT = `https://team340.org`;
 
 export async function GET() {
-	const body = sitemap([``, `/about`, `/robots`, `/resources`, `/sponsors`, `/contact`]);
+	const body = sitemap([``, `about`, `robots`, `resources`, `sponsors`, `contact`]);
 	const response = new Response(body);
 
 	response.headers.set('Content-Type', 'application/xml');
