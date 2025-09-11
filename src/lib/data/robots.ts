@@ -25,6 +25,7 @@ export interface Robot {
 // 2015 Better team photo
 
 export const ATTENDED_CHAMPS = `Attended World Championship`;
+export const UNNAMED = `Unnamed`;
 
 export const robots: Robot[] = [
 	{
@@ -293,7 +294,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2015,
-		name: `Unknown`,
+		name: UNNAMED,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ New York Tech Valley Regional`,
 		events: [
@@ -410,7 +411,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2011,
-		name: `Unknown`,
+		name: UNNAMED,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
@@ -440,7 +441,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2010,
-		name: `Unknown`,
+		name: UNNAMED,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
@@ -465,7 +466,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2009,
-		name: `Unknown`,
+		name: UNNAMED,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
@@ -515,7 +516,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2007,
-		name: `Unknown`,
+		name: UNNAMED,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
@@ -540,7 +541,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2006,
-		name: `Unknown`,
+		name: UNNAMED,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
@@ -699,7 +700,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2000,
-		name: `Unnamed`,
+		name: UNNAMED,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340's Rookie Season`,
 		events: [
