@@ -8,10 +8,10 @@ export interface NextEvent {
 }
 
 export const nextEvent: NextEvent = {
-	name: `Rah Cha Cha Ruckus`,
-	date: new Date(1759060800000),
+	name: `Overtime Sunday`,
+	date: new Date(1762088400000),
 	link: {
 		label: `Event Website`,
-		url: `https://ruckus.penfieldrobotics.com`
+		url: `https://stemleycup.ca`
 	}
 };
