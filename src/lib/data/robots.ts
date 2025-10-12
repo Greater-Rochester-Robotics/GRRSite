@@ -54,7 +54,7 @@ export const robots: Robot[] = [
 		],
 		gameInfo: {
 			name: `REEFSCAPE`,
-			description: `Two alliances of three robots each work to score PVC pipes (called Coral) and playground balls (called Algae) into goals on their side of the field. At the end of the match, robots move to a truss structure called the Barge and climb metal Cages to earn additional points.`,
+			description: `Two alliances of three robots each work to score PVC pipes (called Coral) and playground balls (called Algae) into goals on their side of the field. At the end of the match, robots move to a truss structure called the Barge and climb metal cages to earn additional points.`,
 			descriptionUrl: `https://en.wikipedia.org/wiki/Reefscape`,
 			animationEmbed: `https://www.youtube.com/embed/YWbxcjlY9JY`
 		}
