@@ -65,6 +65,11 @@ export const sponsors: Sponsor[] = [
 		name: `The Blank Family`
 	},
 	{
+		name: `Luma Vision`,
+		url: `https://luma.vision`,
+		image: `luma-vision.webp`
+	},
+	{
 		name: `Transparent Materials`
 	},
 	{

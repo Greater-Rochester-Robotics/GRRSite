@@ -8,10 +8,10 @@ export interface NextEvent {
 }
 
 export const nextEvent: NextEvent = {
-	name: `Overtime Sunday`,
-	date: new Date(1762088400000),
+	name: `2026 FRC Season Kickoff`,
+	date: new Date(1768064400000),
 	link: {
-		label: `Event Website`,
-		url: `https://stemleycup.ca`
+		label: `FIRST Website`,
+		url: `https://www.firstinspires.org/programs/frc/game-and-season`
 	}
 };

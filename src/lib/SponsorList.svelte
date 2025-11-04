@@ -69,10 +69,10 @@
 	}
 
 	.sponsor {
-		width: 10rem;
+		width: 12rem;
 		max-width: 100%;
 		aspect-ratio: 3 / 1;
-		font-size: 1rem;
+		font-size: 1.2rem;
 
 		@media (width < 30rem) {
 			width: 8.5rem;
@@ -81,7 +81,7 @@
 	}
 
 	.homepage-sponsor {
-		width: 18rem;
+		width: 20rem;
 		max-width: 100%;
 		aspect-ratio: 3 / 1;
 		font-size: 1.8rem;
