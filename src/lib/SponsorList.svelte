@@ -27,7 +27,7 @@
 					{/snippet}
 
 					{#if sponsor.url}
-						<a href={sponsor.url}>{@render sponsorInner()}</a>
+						<a href={sponsor.url} target="_blank">{@render sponsorInner()}</a>
 					{:else}
 						{@render sponsorInner()}
 					{/if}
