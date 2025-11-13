@@ -47,6 +47,7 @@
 			url="https://www.chiefdelphi.com/t/frc-team-340-greater-rochester-robotics-2024-build-thread-open-alliance/443107"
 		/>
 		<Link label="2025" url="https://www.chiefdelphi.com/t/frc-340-g-r-r-2025-build-thread-open-alliance/477531" />
+		<Link label="2026" url="https://www.chiefdelphi.com/t/frc-340-g-r-r-2026-build-thread-open-alliance/508142" />
 	</div>
 
 	<span></span>

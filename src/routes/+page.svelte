@@ -154,6 +154,10 @@
 			font-size: 3rem;
 			color: rgb(255, 255, 255);
 			mask-image: linear-gradient(black, rgba(0, 0, 0, 0.75));
+
+			@media (width < 40rem) {
+				font-size: 2.4rem;
+			}
 		}
 
 		p {
@@ -163,6 +167,7 @@
 
 			@media (width < 40rem) {
 				margin: 0 8%;
+				font-size: 1.2rem;
 			}
 		}
 	}
