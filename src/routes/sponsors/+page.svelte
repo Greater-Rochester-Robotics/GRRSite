@@ -21,7 +21,7 @@
 			technical skills but also the altruism and support that drives our success. The organizations and individuals
 			listed below offer generous financial contributions that make our program possible.
 		</p>
-		<Link label="Learn about Sponsoring 340" url="/files/340_Sponsorship_2025.pdf" />
+		<Link label="Learn about Sponsoring 340" url="/files/340_Sponsorship_2026.pdf" />
 	</div>
 	<span></span>
 	<div>
