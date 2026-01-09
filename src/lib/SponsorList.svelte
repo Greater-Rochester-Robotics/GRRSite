@@ -5,7 +5,7 @@
 	let { homepage }: { homepage?: boolean } = $props();
 
 	const priority = (s: Sponsor) => (s.description ? 0 : s.homepage ? 1 : 2);
-	const sections = (() => homepage)()
+	const sections = !(() => homepage)()
 		? new Array(3).fill(null).map((_, i) => sponsors.filter((s) => priority(s) === i))
 		: [sponsors.filter((s) => s.homepage)];
 </script>
