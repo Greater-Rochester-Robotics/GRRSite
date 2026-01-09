@@ -54,7 +54,7 @@
 	</div>
 
 	<footer>
-		<p style="font-size: 0.8rem; opacity: 0.8;">© 2025 Team 340</p>
+		<p style="font-size: 0.8rem; opacity: 0.8;">© 2026 Team 340</p>
 		<Socials />
 	</footer>
 </div>
