@@ -53,8 +53,8 @@
 			<h1>About Us</h1>
 			<p>
 				Team 340, G.R.R. (Greater Rochester Robotics) is a high school robotics team that competes annually in the
-				FIRST® Robotics Competition. Every year, our students are challenged to design, build, and program a
-				competitive industrial-sized robot capable of playing a field game that is released in January.
+				FIRST® Robotics Competition. Every year, our students are challenged to design, build, and program a competitive
+				industrial-sized robot capable of playing a field game that is released in January.
 			</p>
 			<p>
 				Our program gives students hands-on experience working in areas such as mechanical engineering, manufacturing
