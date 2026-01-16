@@ -54,7 +54,7 @@ export const sponsors: Sponsor[] = [
 		image: `rev-robotics.webp`
 	},
 	{
-		name: `The Weismore Family`
+		name: `The Wiesmore Family`
 	},
 	{
 		name: `Optimax`,
