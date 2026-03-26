@@ -8,10 +8,10 @@ export interface NextEvent {
 }
 
 export const nextEvent: NextEvent = {
-	name: `Finger Lakes Regional`,
-	date: new Date(1773266400000),
+	name: `FIRST Championship`,
+	date: new Date(1777464000000),
 	link: {
 		label: `Event Information`,
-		url: `https://www.thebluealliance.com/event/2026nyro`
+		url: `https://www.firstinspires.org/programs/first-championship`
 	}
 };
