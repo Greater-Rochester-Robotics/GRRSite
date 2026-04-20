@@ -29,6 +29,37 @@ export const UNNAMED = `Unnamed`;
 
 export const robots: Robot[] = [
 	{
+		year: 2026,
+		name: `Buccshot`,
+		headline: `Attending World Championship`,
+		// headline: ATTENDED_CHAMPS,
+		// teamPhoto: ``,
+		events: [
+			{
+				name: `Finger Lakes Regional`,
+				awards: [],
+				banners: []
+			},
+			{
+				name: `Greater Pittsburgh Regional`,
+				awards: [`Regional Winners`, `Autonomous Award`],
+				banners: [`Winner`]
+			},
+			{
+				name: `FIRST Championship`,
+				// division: ``,
+				awards: [],
+				banners: []
+			}
+		],
+		gameInfo: {
+			name: `REBUILT`,
+			description: `Two alliances of three robots each work to score foam balls (called Fuel) into their alliance's goal (called the Hub). At the end of the match, robots move to a ladder-shaped structure called the Tower and climb up to three rungs to earn additional points.`,
+			descriptionUrl: `https://en.wikipedia.org/wiki/Rebuilt_(FIRST)`,
+			animationEmbed: `https://www.youtube.com/embed/_fybREErgyM`
+		}
+	},
+	{
 		year: 2025,
 		name: `Goose`,
 		headline: ATTENDED_CHAMPS,

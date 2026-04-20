@@ -34,30 +34,32 @@
 
 	<span></span>
 
-	<SectionHead text="Build Threads" />
-	<p>
-		In recent seasons, Team 340 has been sharing our build process and strategy in-season on Chief Delphi, an online
-		forum dedicated to discussion about the FIRST Robotics Competition. Below are links to each season's corresponding
-		thread.
-	</p>
-
-	<div style="display: flex; flex-direction: row; justify-content: start; gap: 1.2rem;">
-		<Link
-			label="2024"
-			url="https://www.chiefdelphi.com/t/frc-team-340-greater-rochester-robotics-2024-build-thread-open-alliance/443107"
-		/>
-		<Link label="2025" url="https://www.chiefdelphi.com/t/frc-340-g-r-r-2025-build-thread-open-alliance/477531" />
-		<Link label="2026" url="https://www.chiefdelphi.com/t/frc-340-g-r-r-2026-build-thread-open-alliance/508142" />
-	</div>
-
-	<span></span>
-
 	<SectionHead text="Code Releases" />
 	<p>
 		With the goal of fostering collaboration, Team 340 releases our robot code publicly in our GitHub organization.
 		There we also share other programming-related resources, such as robot logs and our template repository.
 	</p>
 	<span><Link label="GitHub.com" url="https://github.com/Greater-Rochester-Robotics" /></span>
+
+	<span></span>
+
+	<SectionHead text="Practice Field Access" />
+	<p>
+		Team 340 maintains a full-field practice setup ("The WAREhouse") alongside 3015 Ranger Robotics and 6868 Cadet
+		Robotics. Located next to the Rochester Technology Park, FIRST teams are welcome to utilize our facility under
+		supervision of team mentors.
+	</p>
+
+	<p style="display: block;">
+		For more information, email <span style="color: var(--accent);">contact@team340.org</span>
+	</p>
+
+	<img
+		src="/media/photos/warehouse-2025.webp"
+		srcset="/media/photos/warehouse-2025-512.webp 512w, /media/photos/warehouse-2025.webp 1920w"
+		sizes="(width <= 512px) 512px, 1920px"
+		alt="The WAREhouse"
+	/>
 
 	<span></span>
 
