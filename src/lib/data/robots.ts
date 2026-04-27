@@ -30,7 +30,7 @@ export const UNNAMED = `Unnamed`;
 export const robots: Robot[] = [
 	{
 		year: 2026,
-		name: `Buccshot`,
+		name: `Bucc-Shot`,
 		headline: `Attending World Championship`,
 		// headline: ATTENDED_CHAMPS,
 		// teamPhoto: ``,
@@ -47,7 +47,7 @@ export const robots: Robot[] = [
 			},
 			{
 				name: `FIRST Championship`,
-				// division: ``,
+				division: `Daly`,
 				awards: [],
 				banners: []
 			}
