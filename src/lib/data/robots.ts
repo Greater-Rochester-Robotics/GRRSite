@@ -35,7 +35,7 @@ export const robots: Robot[] = [
 		actionEmbed: `https://www.youtube.com/embed/bgd-c3Pu04w`,
 		teamPhoto: `Team 340 @ Greater Pittsburgh Regional`,
 		events: [
-			{ 
+			{
 				name: `Finger Lakes Regional`,
 				awards: [],
 				banners: []
