@@ -31,11 +31,11 @@ export const robots: Robot[] = [
 	{
 		year: 2026,
 		name: `Bucc-Shot`,
-		headline: `Attending World Championship`,
-		// headline: ATTENDED_CHAMPS,
-		// teamPhoto: ``,
+		headline: ATTENDED_CHAMPS,
+		actionEmbed: `https://www.youtube.com/embed/bgd-c3Pu04w`,
+		teamPhoto: `Team 340 @ Greater Pittsburgh Regional`,
 		events: [
-			{
+			{ 
 				name: `Finger Lakes Regional`,
 				awards: [],
 				banners: []
