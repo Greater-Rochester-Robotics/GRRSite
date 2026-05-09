@@ -6,7 +6,7 @@ export interface Sponsor {
 	description?: string[];
 }
 
-export const YEAR = 2025;
+export const YEAR = 2026;
 
 export const sponsors: Sponsor[] = [
 	{
@@ -35,18 +35,26 @@ export const sponsors: Sponsor[] = [
 		homepage: true
 	},
 	{
+		name: `C&M Forwarding`,
+		url: `https://cmforwarding.com`,
+		image: `cmforwarding.webp`,
+		homepage: true
+	},
+	{
+		name: `Gene Haas Foundation`,
+		url: `https://www.ghaasfoundation.org`,
+		image: `gene-haas.webp`,
+		homepage: true
+	},
+	{
 		name: `L3Harris`,
 		url: `https://www.l3harris.com`,
 		image: `l3harris.webp`,
 		homepage: true
 	},
 	{
-		name: `C&M Forwarding`,
-		url: `https://cmforwarding.com`,
+		name: `Ryan Pappa`,
 		homepage: true
-	},
-	{
-		name: `Ryan Pappa`
 	},
 	{
 		name: `REV Robotics`,
@@ -54,7 +62,9 @@ export const sponsors: Sponsor[] = [
 		image: `rev-robotics.webp`
 	},
 	{
-		name: `The Wiesmore Family`
+		name: `Luma Vision`,
+		url: `https://luma.vision`,
+		image: `luma-vision.webp`
 	},
 	{
 		name: `Optimax`,
@@ -62,19 +72,24 @@ export const sponsors: Sponsor[] = [
 		image: `optimax.webp`
 	},
 	{
-		name: `The Blank Family`
+		name: `The Wiesmore Family`
 	},
 	{
-		name: `Luma Vision`,
-		url: `https://luma.vision`,
-		image: `luma-vision.webp`
+		name: `P&CG`,
+		url: `https://www.pandcg.com`
 	},
 	{
 		name: `Transparent Materials`
 	},
 	{
-		name: `P&CG`,
-		url: `https://www.pandcg.com`
+		name: `Fire Flower Tattoo Studio`,
+		url: `https://www.fireflowertattoostudio.com`
+	},
+	{
+		name: `Wegman Hardware Product`
+	},
+	{
+		name: `Daniel W. Schiavone`
 	},
 	{
 		name: `Stowe Lawfirm`

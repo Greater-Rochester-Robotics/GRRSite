@@ -72,7 +72,7 @@
 		width: 12rem;
 		max-width: 100%;
 		aspect-ratio: 3 / 1;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 
 		@media (width < 30rem) {
 			width: 8.5rem;

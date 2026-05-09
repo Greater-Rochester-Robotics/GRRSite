@@ -8,10 +8,10 @@ export interface NextEvent {
 }
 
 export const nextEvent: NextEvent = {
-	name: `FIRST Championship`,
-	date: new Date(1777464000000),
+	name: `Flower City Frenzy`,
+	date: new Date(1780750800000),
 	link: {
-		label: `Event Information`,
-		url: `https://www.firstinspires.org/programs/first-championship`
+		label: `Event Website`,
+		url: `https://sites.google.com/rcsd121.org/fcf?usp=sharing`
 	}
 };
