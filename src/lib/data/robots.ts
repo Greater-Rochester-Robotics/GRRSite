@@ -325,7 +325,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2015,
-		name: UNNAMED,
+		name: `James Buduson`,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ New York Tech Valley Regional`,
 		events: [
@@ -442,7 +442,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2011,
-		name: UNNAMED,
+		name: `Charlie`,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
@@ -472,7 +472,7 @@ export const robots: Robot[] = [
 	},
 	{
 		year: 2010,
-		name: UNNAMED,
+		name: `Eagle`,
 		headline: ATTENDED_CHAMPS,
 		teamPhoto: `Team 340 @ Finger Lakes Regional`,
 		events: [
